@@ -12,5 +12,5 @@ spec:
   project: default
   source:
     path: 
-    repoURL: git@github.com:sudeep1607/argocd-example-apps.git
+    repoURL: git@github.com:sudeep1607/argocd-example-apps
     targetRevision: HEAD
