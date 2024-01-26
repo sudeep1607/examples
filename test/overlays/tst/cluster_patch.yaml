@@ -1,3 +1,6 @@
 - op: replace
   path: /spec/destination/server
   value: https://kubernetes.tst.svc
+- op: replace
+  path: /metadata/name
+  value: guestbook-tst
