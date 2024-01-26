@@ -1,0 +1,11 @@
+kind: Kustomization
+apiVersion: kustomize.config.k8s.io/v1beta1
+resources:
+- ../../base
+patches:
+ - target:
+      group: argoproj.io
+      version: v1alpha1
+      kind: Application
+      name: Application
+   path: cluster_patch.yaml
